@@ -1,9 +1,9 @@
-import styles from './career.module.css'
+import styles from "./career.module.css";
 
 export const Career = () => {
-    return (
-        <div>
-            <h2>Career </h2>
-        </div>
-    );
+  return (
+    <div className={styles.career} id="career">
+      <h2>Career </h2>
+    </div>
+  );
 };
